@@ -8,15 +8,17 @@ To compete with Netflix, Disney Plus has hired us, a media analytics firm, to de
 
 ## Project Summary
 
-This project aims to create a movie recommendation systems using two different techniques. The first being Collaborative filtering or recommending movies based on similarities between users ratings. This was done by training a model that can predict a given users' ratings of all movies in a dataframe based on their new ratings and their similarity to other users. The second technique used was Content Based Filtering which aims to recommend movies similar to the movies which the new user has said they have watched or liked. These two techniques were used in concert to output a list of movie recommendations to a user.
+This project aims to create a movie recommendation system using two different techniques. The first being Collaborative filtering or recommending movies based on similarities between users ratings. This was done by training a model that can predict a given users' ratings of all movies in a dataframe based on their new ratings and their similarity to other users. The second technique used was Content Based Filtering which aims to recommend movies similar to the movies which the new user has said they have watched or liked. These two techniques were used in concert to output a list of movie recommendations to a user.
 
 
 ## Repository
 
-This repository contains 3 notebooks with the following contents:
+This repository contains 5 notebooks with the following contents:
 1. Data cleaning and EDA
-2. Model Selection
-3. Recommendation systems
+2. API Calls
+3. Modeling for Collaborative Filter
+4. Modeling for Cosine Similarity Content-Based
+5. Modeling for Combination of Collab Filter and Content-Based
 
 ## Data Cleaning and EDA
 
